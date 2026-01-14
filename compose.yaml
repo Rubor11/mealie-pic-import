@@ -1,0 +1,10 @@
+services:
+  mealie-pic-import:
+    build: .
+    container_name: mealie-pic-import
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - ./.env
+    command: python main.py
+    restart: "no"

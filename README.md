@@ -49,6 +49,6 @@ Put your images in the folder and run:
 python main.py
 ```
 
-It will return a recipe in JSON format.
+It will return a recipe in JSON format ready for mealie_client.py.
 
 ---
